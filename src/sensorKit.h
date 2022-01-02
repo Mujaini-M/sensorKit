@@ -1,7 +1,7 @@
 #ifndef sensorKit_h
 #define sensorKit_h
 #include <vector>
-#include "Particle.h"
+//#include "Particle.h"
 using namespace std;
 
 class sensorKit
