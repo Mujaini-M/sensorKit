@@ -8,7 +8,7 @@ unsigned int duration = 60000;
 void setup() {
   pinMode(sensor, INPUT);
   currenttime = millis();
-}
+} 
 
 double sr, sr_mean, sr_sd, sr_median;
 
