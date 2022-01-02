@@ -9,9 +9,9 @@ class sensorKit
   public:
 
     sensorKit(int acc);
-    double mean(double SR);
-    double standard_deviation(double SR);
-    double median(double SR);
+    double mean(double SR); //function prototype used to define the function before it used 
+    double standard_deviation(double SR);//can be written as double standard_deviation(double); without the variable cuz
+    double median(double SR);//in this stage the compiler needs to know the data types only.
 
   private:
 
