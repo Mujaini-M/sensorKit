@@ -1,11 +1,5 @@
-//#include "Particle.h"
 #include "sensorKit.h"
 #include <cmath>
-
-sensorKit::sensorKit(int acc){
-  acc = 1;
-}
-
 
 double sensorKit::mean(double SR){
    mean_vec.push_back(SR);
